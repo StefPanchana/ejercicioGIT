@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./CSS/main.css">
+    <link rel="stylesheet" href="./CSS/mediasquery.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"></script>
+</head>
+<body>
+    <header class="contenedorCabecera">
+        <div class="cabeceraFija">
+            <nav class="navCabecera">
+                <img class="logo" src="./IMG/Logo.svg" alt="">
+                <img class="logoMedia" src="./IMG/iconHeaderMedia.png" alt="">
+                <div class="opcionesCabecera">
+                    <div id="logginOptions">
+                        <a id="log" href="#">LOG IN</a>
+                        <a id="register" href="#">SIGN-UP</a>
+                    </div>
+                    <div id="languageOptions">
+                        <a id="esp" href="#">ESP</a>
+                        <a id="eng" href="#">ENG</a>
+                    </div>
+                    <div id="menuIcon">
+                        <img src="./IMG/menuIcon.svg" alt="">
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="cabeceraContenido">
+            <div class="followContent">
+                <div id="stickFollow">
+                    <p id="followSpan">FOLLOW</p>
+                    <img src="./IMG/lineFollow.png" alt="">
+                    <div id="linkFollow">
+                        <a href="#" target="_blank"><i class="fa-brands fa-linkedin fa-xl" style="color: #7E7E7E;"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-instagram fa-xl" style="color: #7E7E7E;"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-facebook fa-xl" style="color: #7E7E7E;"></i></a>
+                        <a href="#" target="_blank"><i class="fa-brands fa-youtube fa-xl" style="color: #7E7E7E;"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="titleContent">
+                <p id="luxuryTitle">Luxury</p>
+                <h1>Real-Estate</h1>
+                <button class="buttonContent">View all properties</button>
+            </div>
+            <div class="searchContent">
+                <input id="inputSearch" type="text" placeholder="Ex. Villa Budapest">
+            </div>
+        </div>
+        <div class="frameHeader" style=" display: flex; z-index: 1002;justify-content: center; height: 25px; align-items: center;">
+            <img src="./IMG/frameHeader.png" alt="" >
+        </div>
+    </header>
+    <section>
+        <div id="gallery">
+            <div class="imgContentGallery">
+                <div class="imagesGalleryActive">
+                    <img src="./IMG/scott.png" alt="">
+                    <p>England</p>
+                    <p>Glasgow</p>
+                </div>
+                <div class="imagesGallery">
+                    <img src="./IMG/england.png" alt="">
+                    <p>England</p>
+                    <p>Glasgow</p>
+                </div>
+                <div class="imagesGallery">
+                    <img src="./IMG/france.png" alt="">
+                    <p><img class="castleImg" src="./IMG/castle.svg" alt="">France</p>
+                    <p>Marseilles</p>
+                </div>
+            </div>
+            <div class="textContenGalleryUp">
+                <div>
+                    <p id="worldwideGalleryUp">Worlwide gallery</p>
+                    <h2 id="h2GalleryOne">Properties for sale</h2>
+                    <p id="paragraphMediaGalleryUp"> In an ultimate jetsetter location or a forever home, our experts have the expertise it takes to knowledgeably advise you at every stage of the property cycle.
+                    </p>
+                </div>
+                <div class="optionsContentGallery">
+                    <button class="btnPage"><img src="./IMG/arrow1.svg" alt="">Prev</button>
+                    <button class="btnViewAll">View all properties</button>
+                    <button class="btnPage">Next <img src="./IMG/arrow2.svg" alt=""></button>
+                    <div class="btnMedia">
+                        <img src="./IMG/arrowMedia.svg" alt="">
+                        <span>View all Properties</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="galleryReverse">
+            <div class="textContenGallery">
+                <div class="textGallery">
+                    <p id="worldwideGallery">Worlwide gallery</p>
+                    <h2 id="h2Gallery">Properties for rent</h2>
+                    <p id="paragraphMediaGallery"> In an ultimate jetsetter location or a forever home, our 
+                        experts have the expertise it takes to knowledgeably advise 
+                        you at every stage of the property cycle. 
+                    </p>
+                </div>
+                <div class="optionsContentGallery">
+                    <button class="btnPage"><img src="./IMG/arrow1.svg" alt="">Prev</button>
+                    <button class="btnViewAll">View all properties</button>
+                    <button class="btnPage">Next <img src="./IMG/arrow2.svg" alt=""></button>
+                    <div class="btnMedia">
+                        <img src="./IMG/arrowMedia.svg" alt="">
+                        <span>View all Properties</span>
+                    </div>
+                </div>
+            </div>
+            <div class="imgContentGallery">
+                <div class="imagesGallery">
+                    <img src="./IMG/franceReverse.png" alt="">
+                    <p>France</p>
+                    <p>Carcassonne</p>
+                </div>
+                <div class="imagesGallery">
+                    <img src="./IMG/franceReverse2.png" alt="">
+                    <p>Germany</p>
+                    <p>Munich</p>
+                </div>
+                <div class="imagesGalleryActive">
+                    <img src="./IMG/franceReverse3.png" alt="">
+                    <p>France</p>
+                    <p>Clo</p>
+                </div>
+            </div>
+        </div>
+        <div id="propertiesLuxury">
+            <h3>Luxury Properties</h3>
+            <h2>Developments</h2>
+            <div id="galleryProperties">
+                <div id="rowOne">
+                    <a href="#">
+                        <div class="containerImg">
+                            <img src="./IMG/surfside.png" alt="">
+                        </div>
+                        <div class="containerText">
+                            <span class="nameProperties">The Surf Row</span>
+                            <span class="cityProperties">Surfside</span>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="containerImg">
+                            <img src="./IMG/verobeach.png" alt="">
+                        </div>
+                        <div class="containerText">
+                            <span class="nameProperties">Indigo</span>
+                            <span class="cityProperties">Vero Beach</span>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="containerImg">
+                            <img src="./IMG/bahamas.png" alt="">
+                        </div>
+                        <div class="containerText">
+                            <span class="nameProperties">Rosewood Baha Mar</span>
+                            <span class="cityProperties">Nassau, the Bahamas</span>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="containerImg">
+                            <img src="./IMG/miami.png" alt="">
+                        </div>
+                        <div class="containerText">
+                            <span class="nameProperties">St. Regis THe Astor Tower</span>
+                            <span class="cityProperties">Brickell, Miami</span>
+                        </div>
+                    </a>
+                </div>
+                <div id="rowTwo">
+                    <a href="#">
+                        <div class="containerImg">
+                            <img src="./IMG/gables.png" alt="">
+                        </div>
+                        <div class="containerText">
+                            <span class="nameProperties">Giralda Place</span>
+                            <span class="cityProperties">Coral Glades</span>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="containerImg">
+                            <img src="./IMG/brickell.png" alt="">
+                        </div>
+                        <div class="containerText">
+                            <span class="nameProperties">St. Regis The William Tower</span>
+                            <span class="cityProperties">Brickell, Miami</span>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="containerImg">
+                            <img src="./IMG/kitts.png" alt="">
+                        </div>
+                        <div class="containerText">
+                            <span class="nameProperties">Solterre at Cockleshell Bay</span>
+                            <span class="cityProperties">St. Kitts and nevis</span>
+                        </div>
+                    </a>
+                    <a href="#">
+                        <div class="containerImg">
+                            <img src="./IMG/coconut.png" alt="">
+                        </div>
+                        <div class="containerText">
+                            <span class="nameProperties">Urbin</span>
+                            <span class="cityProperties">Coconut Grove</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div id="galleryPropertiesMedia">
+                <a href="#">
+                    <div class="containerImg">
+                        <img src="./IMG/quebec.png" alt="">
+                    </div>
+                    <div class="containerText">
+                        <span class="nameProperties">Canada</span>
+                        <span class="cityProperties">Quebec</span>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="containerImg">
+                        <img src="./IMG/aaron.png" alt="">
+                    </div>
+                    <div class="containerText">
+                        <span class="nameProperties">Mexico</span>
+                        <span class="cityProperties">Acapulco</span>
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="containerImg">
+                        <img src="./IMG/spain.png" alt="">
+                    </div>
+                    <div class="containerText">
+                        <span class="nameProperties">Spain</span>
+                        <span class="cityProperties">Barcelona</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div id="services">
+            <div id="imgServices">
+                <img src="./IMG/rectangleImg.svg" alt="" style="position: relative; width: 600px; height: 670px;">
+                <img src="./IMG/imageservices.svg" alt="" style="position: absolute; width: 580px;  margin-left: calc(20% /2);">
+            </div>
+            <div id="imgServicesContentMedia">
+                <img src="./IMG/imgDownServicesMedia.png" alt="">
+            </div>
+            <div id="contentServices">
+                <img src="./IMG/imgServicesContenText.png" alt="">
+                <img src="./IMG/imgServicesMedia.png" alt="">
+                <div id="contentTextServices">
+                    <h3>Services</p>
+                    <h2>Art Curation & Interior Design</h2>
+                    <p>In an ultimate jetsetter location or a forever home, our experts have the expertise it takes to knowledgeably advise you at every stage of the property cycle.</p>
+                    <div class="optionsContentGallery">
+                        <button class="btnPage"><img src="./IMG/arrow1.svg" alt="">Prev</button>
+                        <button class="btnViewAll">Contact us</button>
+                        <button class="btnPage">Next <img src="./IMG/arrow2.svg" alt=""></button>
+                    </div>
+                    <div class="btnMedia">
+                        <img src="./IMG/arrowMedia.svg" alt="">
+                        <span>Contact us</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footerFlotante">
+            <div class="elementosFooterFlotante">
+                <div class="textFooterFlotante">
+                    <span class="join">Join the list</span>
+                    <span class="unlock">Unlock</span>
+                    <span class="unlock">the exclusive world</span>
+                </div>
+                <div class="camposFooterFlotante">
+                    <span class="textOptionsFooter" style="margin-left: 5%;">Name:</span>
+                    <input type="search" id="inputMail" placeholder="   Ex. name@email.com" spellcheck="false" data-ms-editor="true">
+                    <button id="buttonSummit">Summit</button>
+                    <div class="btnMedia">
+                        <img src="./IMG/arrowMedia.svg" alt="">
+                        <span>Summit</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footerBottom">
+            <div class="optionsFooterBottom">
+                <div class="optionsFooter" id="grid-item1">
+                    <img class="logo" src="./IMG/Logo.svg" alt="">
+                    <span class="textOptionsFooterGray">Became a New Uniq Artist</span>
+                    <span class="textOptionsFooterGray">Became a Commercial Partner</span>
+                </div>
+                <div class="optionsFooter" class="grid-item2">
+                    <span class="textOptionsFooterGray">Suites</span>
+                    <span class="textOptionsFooterGray">Cities</span>
+                    <span class="textOptionsFooterGray">Villas</span>
+                </div>
+                <div class="optionsFooter" class="grid-item3">
+                    <span class="textOptionsFooter">Homes</span>
+                    <span class="textOptionsFooterGray">Apartments</span>
+                    <span class="textOptionsFooterGray">Contact Us</span>
+                </div>
+                <div class="optionsFooter" class="grid-item4">
+                    <span class="textOptionsFooterGray">Call Center</span>
+                    <span class="textOptionsFooter">+52 55 6840 4400</span>
+                    <span class="textOptionsFooterGray">concierge@uniqluxury.com</span>
+                </div>
+                <div class="optionsFooter" class="grid-item5">
+                    <a href="#" target="_blank"><i class="fa-brands fa-linkedin fa-xl" style="color: #7E7E7E;"></i></a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-twitter fa-xl" style="color: #7E7E7E;"></i></a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-facebook fa-xl" style="color: #7E7E7E;"></i></a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-instagram fa-xl" style="color: #7E7E7E;"></i></a>
+                    <a href="#" target="_blank"><i class="fa-brands fa-youtube fa-xl" style="color: #7E7E7E;"></i></a>
+                </div>
+            </div>
+            <div class="otherElementFooterBottom" >
+                <div class="lineFooterBottom">
+                    <img src="./IMG/lineFooter.png" alt="">
+                </div>
+                <div class="copyrightFooterBottom">
+                    <p>Copyright @ 2022</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
