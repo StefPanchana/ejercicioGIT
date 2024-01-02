@@ -7,6 +7,6 @@ Correo: stefaniapanchanaj@hotmail.com
 # Proyecto Landing Web - 1920x1080px & 320px
 
 
-# Update 001/01/2024:
+# Update 01/01/2024:
 # Tarea de lógica de programación, se sube al repositorio remoto la carpeta "tareaLogicaProgramacion" en la cual se alojan los archivos
 # de la consigna recibida.
