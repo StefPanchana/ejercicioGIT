@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let numeroDeElementos; 
+
+        validateInput();
+
+        function validateInput()
+        {
+            numeroDeElementos = parseInt(prompt("Ingrese un número:"));
+        }
+
+        fibonnaci();
+
+        function fibonnaci()
+        {
+            let fib = [0,1];
+            let iterator = 0;
+
+            if (typeof numeroDeElementos === 'number' && !Number.isNaN(numeroDeElementos))
+            {
+                for (let i = 0; i < numeroDeElementos; i++)
+                {
+                    iterator = i;
+                    let tmp = fib[i] + fib[++iterator];
+                    fib.push(tmp);
+                }
+
+                console.log("La serie fibonnaci se conforma de: " + fib);
+            }
+            else
+            {
+                validateInput();
+                fibonnaci();
+            }
+        }
+
+    </script>
+</body>
+</html>

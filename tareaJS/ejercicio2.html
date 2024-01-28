@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let inicio=["unacadena",3,9,1,10,500,1,10,true];
+        let scan = [];
+        let result = [];
+        
+        for (let i = 0; i < inicio.length; i++)
+        {
+            if (typeof inicio[i] === 'number' && !Number.isNaN(inicio[i]))
+                scan.push(inicio[i]);
+        }
+
+        let sorter = false;
+
+        if (scan.length > 0)
+        {
+            scanFactor = scan;
+            result = numberPar(scan);
+            console.log("El resultado de la ejecución de la función de orden de números es: "+ result);
+        }
+        else
+            alert("No se detectaron numeros dentro del array a evaluar, modifique por favor el contenido del array.");
+
+
+        function numberPar (arrayScan)
+        {
+            let newArray = [];
+            let max = arrayScan[0];
+
+            for(let i = 0; i < arrayScan.length; i++)
+                newArray.push(arrayScan[i])
+            
+            let lengthArray = newArray.length;
+
+            for(let i=0; i < lengthArray; i++)
+            {
+                for(let j=0; j < lengthArray; j++)
+                {
+                    if (j+1 !== lengthArray)
+                    {
+                        if (newArray[j] > newArray[j+1])
+                        {
+                            let swapElement = newArray[j+1];
+                            newArray[j+1] = newArray[j];
+                            newArray[j] = swapElement;
+                        }
+                    }  
+                }
+            }
+            
+            return newArray;
+        }
+    </script>
+</body>
+</html>
